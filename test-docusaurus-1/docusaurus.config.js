@@ -23,6 +23,7 @@ const config = {
       ({
         docs: {
           path: "./../samples",
+          routeBasePath: "mySamples",
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -54,9 +55,8 @@ const config = {
             type: 'doc',
             docId: 'test',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Samples',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
