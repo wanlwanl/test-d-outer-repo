@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest_docusaurus_1=self.webpackChunktest_docusaurus_1||[]).push([[124],{7930:function(e){e.exports=JSON.parse('{"permalink":"/test-d-outer-repo/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
