@@ -15,9 +15,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
-        uses: actions/checkout@main
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
