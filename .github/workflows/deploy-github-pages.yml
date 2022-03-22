@@ -15,13 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out repo
-        uses: actions/checkout@v2
-      # Node is required for npm
-      - name: Set up Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: "12"
+      - name: Checkout
+        uses: actions/checkout@main
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
